@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+html {
+  font-family: "Montserrat", sans-serif;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
