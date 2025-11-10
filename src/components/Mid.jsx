@@ -26,7 +26,7 @@ const Mid = () => {
 
         {/* mid  */}
         <div className="border-1 border-amber-500 w-full h-[98px]">
-          <div className="border-1 border-red-700 w-[146px] h-[68px] ml-[20px] my-[15px]">
+          <div className="border-1 border-red-700 w-[170px] h-[68px] ml-[20px] my-[15px]">
             <div className="flex  h-[45px] justify-between mb-[10px]">
               <img src={lion} alt="logos" className="w-[45] h-[45]" />
               <span className="text-[18px] font-semibold flex items-center">
