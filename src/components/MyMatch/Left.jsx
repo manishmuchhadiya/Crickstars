@@ -1,7 +1,10 @@
 import React from "react";
-import ad from "../assets/leftBanner.png";
-import playStore from "../assets/GooglePlay.svg";
-import appStore from "../assets/AppStore.svg";
+import ad from "../../assets/leftBanner.png";
+import playStore from "../../assets/GooglePlay.svg";
+import appStore from "../../assets/AppStore.svg";
+// import ad from "../assets/leftBanner.png";
+// import playStore from "../assets/GooglePlay.svg";
+// import appStore from "../assets/AppStore.svg";
 
 const Left = () => {
   return (
