@@ -1,0 +1,13 @@
+.liveZoom {
+  animation: zoomAnim 1s ease-in-out infinite;
+}
+
+@keyframes zoomAnim {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+}
