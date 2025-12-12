@@ -5,7 +5,7 @@ The project follows a clean and modular folder structure for easy scalability an
 
 ---
 
-# Project Structure
+## Project Structure
 
 ```bash
 .
@@ -50,25 +50,26 @@ The project follows a clean and modular folder structure for easy scalability an
 │ └── Table.jsx
 ```
 ---
-#🚀 Features
+## 🚀 Features
 
-📊 Live-style match scorecard UI
-🏏 Batting, Bowling, Overs, Partnerships & Fall of Wickets tables
-🔄 Dynamic Match Updates
-🎯 Match Summary Cards
-❌ 404 & No-Data Screens
-📁 Modular and clean component structure
-🎨 CSS Modules for scoped styling
-📦 Reusable table components
+- 📊 Live-style match scorecard UI  
+- 🏏 Batting, Bowling, Overs, Partnerships & Fall of Wickets tables  
+- 🔄 Dynamic Match Updates  
+- 🎯 Match Summary Cards  
+- ❌ 404 & No-Data Screens  
+- 📁 Modular and clean component structure  
+- 🎨 CSS Modules for scoped styling  
+- 📦 Reusable table components  
+
 ---
-#🛠️ Tech Stack
+##🛠️ Tech Stack
 
-React.js
-Vite
-Tailwind CSS
-JavaScript (ES6+)
-CSS Modules
-Modular Component Architecture
+- React.js
+- Vite
+- Tailwind CSS
+- JavaScript (ES6+)
+- CSS Modules
+- Modular Component Architecture
 ---
 #📄 License
 
