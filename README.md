@@ -1,4 +1,4 @@
-# 🏏 Cricket Scorecard Application Using React + Vite +
+# 🏏 Crickstars 
 
 A React-based cricket scorecard web application that displays match details, batting & bowling tables, match summaries, partnerships, fall of wickets, and more.
 The project follows a clean and modular folder structure for easy scalability and maintenance.
