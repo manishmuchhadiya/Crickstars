@@ -60,7 +60,7 @@ const Overs = () => {
   };
 
   return (
-    <div className="w-[568px] bg-[#F3F3F3] p-[30px] rounded-[10px]">
+    <div className="w-[568px] bg-[#F3F3F3] p-[30px] rounded-b-[10px]">
       <div className="flex flex-col gap-[28px]">
         {data.map((row, index) => (
           <div key={index} className="pb-[16px] border-b border-[#E0E0E0]">

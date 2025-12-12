@@ -1,0 +1,40 @@
+.
+├── src
+├── main.jsx
+├── index.css
+└── App.jsx/
+    ├── assets/
+    ├── Data/
+    │   ├── matchesData.js
+    │   ├── TeamScoreCard.js
+    │   ├── BowlingTableData.js
+    │   └── BowlingHighlightData.js
+    ├── Pages/
+    │   ├── NotFoundDataofAnyMatch.jsx
+    │   ├── Scorecard404NotFound.jsx
+    │   └── MyMatch.jsx
+    └── components/
+        ├── common/
+        │   ├── Header.jsx
+        │   ├── Header.module.css
+        │   ├── Left.jsx
+        │   ├── Right1.jsx
+        │   └── Right2.jsx
+        ├── midSection/
+        │   ├── MatchCard.jsx
+        │   ├── MatchUpdateCard.jsx
+        │   ├── SummaryScorecard.jsx
+        │   ├── SummaryTable.jsx
+        │   └── TeamScoreCard.jsx
+        ├── OpponentYetToBat/
+        │   ├── YetToBet.jsx
+        │   └── NoDataCard.jsx
+        └── Tables/
+            ├── Batting.jsx
+            ├── Bowling.jsx
+            ├── BowlingHighlightDropdown.jsx
+            ├── FallOfWicket.jsx
+            ├── NoDataYetCard.jsx
+            ├── Overs.jsx
+            ├── Partnerships.jsx
+            └── Table.jsx

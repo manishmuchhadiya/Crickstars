@@ -13,6 +13,7 @@ import viperKingsLogo from "../assets/viperKingsLogo.png";
 
 export const matchesData = [
   {
+    id: 1,
     Individual_match: "Individual match",
     Match_Date: "November 11, 2023",
     logo1: redLionsLogo,
@@ -27,6 +28,7 @@ export const matchesData = [
     Toss_win: "Red Lions won the toss and elected to bat first",
   },
   {
+    id: 2,
     Individual_match: "Individual match",
     Match_Date: "November 11, 2023",
     logo1: alligatorLogo,
@@ -41,6 +43,7 @@ export const matchesData = [
     Toss_win: "Phoenix Eleven won the toss and elected to bowl first",
   },
   {
+    id: 3,
     Individual_match: "Individual match",
     Match_Date: "November 11, 2023",
     logo1: goodElevenzzLogo,
@@ -55,6 +58,7 @@ export const matchesData = [
     Toss_win: "Good Elevenzz won the match by 35 runs",
   },
   {
+    id: 4,
     Individual_match: "Individual match",
     Match_Date: "November 11, 2023",
     logo1: lightningCheetahLogo,

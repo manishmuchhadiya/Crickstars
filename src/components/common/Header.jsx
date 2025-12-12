@@ -12,7 +12,7 @@ const Header = ({
   return (
     <header className="w-[1440px] h-[88px] mb-[30px] flex items-center justify-between px-[40px] bg-white border-gray-200 ">
       {/* Left section */}
-      <div className="flex items-center gap-[30px] pl-[55px]">
+      <div className="flex items-center gap-[30px] pl-[55px] ">
         {/* Back Arrow (optional) */}
         {showBack && (
           <ArrowLeft
