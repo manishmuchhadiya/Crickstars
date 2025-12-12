@@ -3,8 +3,11 @@
 A React-based cricket scorecard web application that displays match details, batting & bowling tables, match summaries, partnerships, fall of wickets, and more.
 The project follows a clean and modular folder structure for easy scalability and maintenance.
 
+---
+
 # Project Structure
 
+```bash
 .
 ├── src
 │ ├── main.jsx
@@ -45,39 +48,28 @@ The project follows a clean and modular folder structure for easy scalability an
 │ ├── Overs.jsx
 │ ├── Partnerships.jsx
 │ └── Table.jsx
-
-🚀 Features
+```
+---
+#🚀 Features
 
 📊 Live-style match scorecard UI
-
 🏏 Batting, Bowling, Overs, Partnerships & Fall of Wickets tables
-
 🔄 Dynamic Match Updates
-
 🎯 Match Summary Cards
-
 ❌ 404 & No-Data Screens
-
 📁 Modular and clean component structure
-
 🎨 CSS Modules for scoped styling
-
 📦 Reusable table components
-
-🛠️ Tech Stack
+---
+#🛠️ Tech Stack
 
 React.js
-
 Vite
-
 Tailwind CSS
-
 JavaScript (ES6+)
-
 CSS Modules
-
 Modular Component Architecture
-
-📄 License
+---
+#📄 License
 
 This project is licensed under the MIT License.
