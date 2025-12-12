@@ -62,7 +62,7 @@ The project follows a clean and modular folder structure for easy scalability an
 - 📦 Reusable table components  
 
 ---
-##🛠️ Tech Stack
+## 🛠️ Tech Stack
 
 - React.js
 - Vite
@@ -71,6 +71,6 @@ The project follows a clean and modular folder structure for easy scalability an
 - CSS Modules
 - Modular Component Architecture
 ---
-#📄 License
+## 📄 License
 
 This project is licensed under the MIT License.
