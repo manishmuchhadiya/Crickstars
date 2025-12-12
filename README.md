@@ -1,16 +1,83 @@
-# React + Vite
+# 🏏 Cricket Scorecard Application Using React + Vite +
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React-based cricket scorecard web application that displays match details, batting & bowling tables, match summaries, partnerships, fall of wickets, and more.
+The project follows a clean and modular folder structure for easy scalability and maintenance.
 
-Currently, two official plugins are available:
+# Project Structure
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+.
+├── src
+│ ├── main.jsx
+│ ├── index.css
+│ ├── App.jsx
+│ ├── assets/
+│ ├── Data/
+│ │ ├── matchesData.js
+│ │ ├── TeamScoreCard.js
+│ │ ├── BowlingTableData.js
+│ │ └── BowlingHighlightData.js
+│ ├── Pages/
+│ │ ├── NotFoundDataofAnyMatch.jsx
+│ │ ├── Scorecard404NotFound.jsx
+│ │ └── MyMatch.jsx
+│ └── components/
+│ ├── common/
+│ │ ├── Header.jsx
+│ │ ├── Header.module.css
+│ │ ├── Left.jsx
+│ │ ├── Right1.jsx
+│ │ └── Right2.jsx
+│ ├── midSection/
+│ │ ├── MatchCard.jsx
+│ │ ├── MatchUpdateCard.jsx
+│ │ ├── SummaryScorecard.jsx
+│ │ ├── SummaryTable.jsx
+│ │ └── TeamScoreCard.jsx
+│ ├── OpponentYetToBat/
+│ │ ├── YetToBet.jsx
+│ │ └── NoDataCard.jsx
+│ └── Tables/
+│ ├── Batting.jsx
+│ ├── Bowling.jsx
+│ ├── BowlingHighlightDropdown.jsx
+│ ├── FallOfWicket.jsx
+│ ├── NoDataYetCard.jsx
+│ ├── Overs.jsx
+│ ├── Partnerships.jsx
+│ └── Table.jsx
 
-## React Compiler
+🚀 Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+📊 Live-style match scorecard UI
 
-## Expanding the ESLint configuration
+🏏 Batting, Bowling, Overs, Partnerships & Fall of Wickets tables
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🔄 Dynamic Match Updates
+
+🎯 Match Summary Cards
+
+❌ 404 & No-Data Screens
+
+📁 Modular and clean component structure
+
+🎨 CSS Modules for scoped styling
+
+📦 Reusable table components
+
+🛠️ Tech Stack
+
+React.js
+
+Vite
+
+Tailwind CSS
+
+JavaScript (ES6+)
+
+CSS Modules
+
+Modular Component Architecture
+
+📄 License
+
+This project is licensed under the MIT License.
